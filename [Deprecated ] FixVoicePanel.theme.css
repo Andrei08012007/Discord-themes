@@ -1,8 +1,8 @@
 /**
  * @name FixVoicePanel
  * @author Andrei0801
- * @version 1.0
- * @description Fixes voice panel overflow
+ * @version 2.0
+ * @description ~~Fixes voice panel overflow~~ Code is usless now. It seems all the problem was because of a discord experiment. '2025-05_align_chat_input' to be more exact. 
  */
 
 @import url('https://raw.githubusercontent.com/Andrei08012007/Discord-themes/main/FixVoicePanel.theme.css');
@@ -27,3 +27,4 @@
   right: 0 !important;
   opacity: 1 !important;
 }
+
