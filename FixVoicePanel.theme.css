@@ -5,11 +5,12 @@
  * @description Fixes voice panel overflow
  */
 
-@import url('https://yourusername.github.io/discord-themes/FixVoicePanel.css');
+@import url('https://raw.githubusercontent.com/Andrei08012007/Discord-themes/main/FixVoicePanel.theme.css');
 
 .container__11d72 {
-  max-height: 42px !important;
-  overflow: hidden;
+  min-height: 42px !important; /* Ensures a minimum size */
+  max-height: none !important; /* Removes clipping */
+  overflow: visible !important; /* Shows all content */
   padding: 6px 10px !important;
   margin-bottom: 4px;
   transform: scale(0.95);
@@ -26,4 +27,3 @@
   right: 0 !important;
   opacity: 1 !important;
 }
-
