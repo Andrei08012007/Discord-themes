@@ -1,0 +1,28 @@
+/**
+ * @name FixVoicePanel
+ * @author Andrei0801
+ * @version 1.0
+ * @description Fixes voice panel overflow
+ */
+
+@import url('https://discordstyles.github.io/FixVoicePanel.css');
+
+.container__11d72 {
+  max-height: 42px !important;
+  overflow: hidden;
+  padding: 6px 10px !important;
+  margin-bottom: 4px;
+  transform: scale(0.95);
+}
+
+.wrapper__3c6d5 {
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+.connection__38593 {
+  position: relative !important;
+  top: 0 !important;
+  right: 0 !important;
+  opacity: 1 !important;
+}
